@@ -1,6 +1,8 @@
 # Java Trivia Game Client-Server Application
 ## Overview
-This project is a Java-based client-server trivia game where multiple users can connect to a server to play a trivia game. Each game session consists of 20 questions, with each question having four possible answers, only one of which is correct. The server handles multiple clients simultaneously and ensures that each client receives a unique set of questions in each game session.
+This project is a Java-based client-server trivia game where multiple users can connect to a server to play a trivia game.
+Each game session consists of 20 questions, with each question having four possible answers, only one of which is correct.
+The server handles multiple clients simultaneously and ensures that each client receives a unique set of questions in each game session.
 
 ## Features
 ### Server
