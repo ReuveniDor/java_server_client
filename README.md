@@ -26,16 +26,10 @@ Displays the user's cumulative score at the end of the game.
 
 Allows the user to start a new game after the current one ends.
 
-## File Structure
-Server.java: Implements the server-side logic, including handling multiple client connections and managing the trivia questions.
-Client.java: Implements the client-side logic, including the GUI for interacting with the user.
-Question.java: A class representing a trivia question, containing the question text, four possible answers, and the correct answer index.
-questions.txt: A text file containing the trivia questions, where each question is represented by five lines:
-The question text.
-The correct answer.
-The first incorrect answer.
-The second incorrect answer.
-The third incorrect answer.
+## Implementation
+We are using a meneger class and threads. we have a Question class and a client interface.
+
+We also have a text file of the trivia questions.
 ## How to Run
 Run run1 
 
@@ -43,6 +37,7 @@ Run run2
 
 Press the correct answer and wait for the time to end.
 ## Example Usage
+![PrintScreens](https://github.com/user-attachments/assets/ae1ddcce-962d-4f1c-9cba-04d11964387b)
 
 ## Requirements
 Java Development Kit (JDK) 8 or higher.
@@ -50,7 +45,10 @@ Java Development Kit (JDK) 8 or higher.
 A text file (questions.txt) formatted as described above.
 ## Future Improvements
 Implement more sophisticated question selection algorithms.
+
 Add support for different question categories.
+
 Enhance the GUI for a better user experience.
+
 ## License
 This project is open-source and available under the MIT License.
