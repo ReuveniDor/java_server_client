@@ -1,0 +1,2 @@
+java TriviaServerManager
+pause
