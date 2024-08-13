@@ -52,6 +52,7 @@ Copy code
 java Client localhost 10
 ## Requirements
 Java Development Kit (JDK) 8 or higher.
+
 A text file (questions.txt) formatted as described above.
 ## Future Improvements
 Implement more sophisticated question selection algorithms.
