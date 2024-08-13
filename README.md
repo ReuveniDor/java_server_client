@@ -27,7 +27,7 @@ Displays the user's cumulative score at the end of the game.
 Allows the user to start a new game after the current one ends.
 
 ## Implementation
-We are using a meneger class and threads. we have a Question class and a client interface.
+We are using a manager class and threads. we have a Question class and a client interface.
 
 We also have a text file of the trivia questions.
 ## How to Run
